@@ -14,4 +14,17 @@ def main() :
 
 if __name__=='__main__' :
     main()
-    
+
+
+
+import streamlit as st
+
+def main() :
+    st.title('웹 대시보드')
+    st.text('웹 대시보드 개발하기')
+    name = '홍길동'
+     # 제 이름은 홍길동 입니다.
+     '제 이름은 {}입니다.'.format(name)
+if __name__=='__main__' :
+    main()
+
