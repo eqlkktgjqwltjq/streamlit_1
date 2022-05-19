@@ -28,3 +28,12 @@ def main() :
 if __name__=='__main__' :
     main()
 
+
+import steamlit as st
+import pandas as pd
+def main() :
+    df = pd.read_csv('data2/iris.csv')
+    print(df)
+
+if
+
